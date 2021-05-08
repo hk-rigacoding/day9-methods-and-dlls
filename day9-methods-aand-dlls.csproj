@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>day9_methods_aand_dlls</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="day9_dll">
+      <HintPath>..\day9_dll\bin\Debug\netstandard2.0\day9_dll.dll</HintPath>
+    </Reference>
+    <Reference Include="irrKlang.NET4">
+      <HintPath>..\..\..\..\..\Downloads\irrKlang-64bit-1.6.0\irrKlang-64bit-1.6.0\bin\dotnet-4-64\irrKlang.NET4.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
